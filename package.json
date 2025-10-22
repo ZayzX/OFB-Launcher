@@ -1,15 +1,15 @@
 {
-    "name": "OFB-Launcher",
-    "preductname": "OFB Launcher",
+    "name": "Legacy-Launcher",
+    "preductname": "Legacy-Beat Launcher",
     "version": "1.0.0",
-    "description": "Launcher Mincraft pour le serveur Otis Fam Batu",
+    "description": "Launcher Mincraft pour le serveur LegacyBeat",
     "main": "src/app.js",
     "author": {
         "name": "luuxis, ZayzX",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "https://otis-fam-batu.strator.gg/LauncherMC",
+    "url": "https://legacy-beat.strator.gg/LauncherMC",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
